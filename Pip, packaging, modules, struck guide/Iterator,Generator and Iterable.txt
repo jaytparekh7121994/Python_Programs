@@ -1,0 +1,18 @@
+Iterator vs Generator vs Iterable 
+
+Iterable :returns one element at a time. lists, tuples etc are iterable
+terables are objects that can return one of their elements at a time, such as a list. 
+
+Many of the built-in functions we’ve used so far, like 'enumerate,' return an iterator.
+Generator : A function that creates an iterator
+Iterator : An iterator is an object that represents a stream of data
+
+Generator Eg:
+
+def my_range(x):
+	i=0
+	while i < x:
+		yield i
+		i+1
+yield keyword is a differentiator between a generator and a function.
+ 

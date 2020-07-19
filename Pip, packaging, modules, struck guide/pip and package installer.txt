@@ -1,0 +1,15 @@
+pip is python package manager
+
+pip install name_module
+
+Alternative method to install the python package is,
+python setup.py install in tar.gz file 
+
+or 
+pip install whl_file
+
+
+The modules can have a lot of dependencies on other modules.
+This information is written by a developer in a file named: requirements.txt
+
+pip install -r requirements.txt

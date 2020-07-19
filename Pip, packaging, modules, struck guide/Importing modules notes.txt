@@ -1,0 +1,17 @@
+from csv import reader as csvreader
+from json import reader as jsonreader
+
+renaming the object name in order to avoid clash between same name objects from different modules
+
+
+import multiprocessing as mp 
+from random import *
+
+from collections import defaultdict,namedtuple
+use directly 
+defaultdict()
+
+Use import * to use all objects 
+Use standard abbreviation mentioned in the documentation, makes the code more readable
+Dont use "*"
+

@@ -1,0 +1,12 @@
+Packages - A module having sub-modules
+
+os module has a sub-module os.path
+Examples:
+
+import os.path
+os.path.isdir('mypath')
+
+from datetime import datetime
+
+1st datetime - module
+2nd datetime - class
