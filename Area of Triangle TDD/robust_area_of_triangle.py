@@ -19,13 +19,13 @@ def area_of_triangle(base: float, height: float) -> float:
     return (base/2)*height
 
 
-test_cases = [(2, 5),  # Integer
-              (0.5, 0.5),  # Float
-              (-2, 5),  # Negative Integer
-              (0, 5),  # Integer but 0 base 
-              (True, 2),  # Boolean
-              ("base", 2)]  # String
+# test_cases = [(2, 5),  # Integer
+#               (0.5, 0.5),  # Float
+#               (-2, 5),  # Negative Integer
+#               (0, 5),  # Integer but 0 base 
+#               (True, 2),  # Boolean
+#               ("base", 2)]  # String
 
-for data in test_cases:
-    print(f"The area of triangle of {data} "
-          f"is: {area_of_triangle(*data)}")
+# for data in test_cases:
+#     print(f"The area of triangle of {data} "
+#           f"is: {area_of_triangle(*data)}")
