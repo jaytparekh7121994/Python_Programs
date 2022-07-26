@@ -1,0 +1,8 @@
+# Nose for better test report view 
+# Pinocchio for test color
+# Coverage for Unit test coverage report
+# Pylint for linting pycode 
+nose
+pinocchio
+coverage
+pylint
