@@ -12,12 +12,12 @@ class StackTestCases(TestCase):
         self.stack = None
 
     def test_push(self):
+        """ Test pushing an item in stack """
         self.stack.push(9)
         self.assertEqual(self.stack.peek(), 9)
 
     def test_pop(self):
+        """ Test popping or removing an item from stack """
         self.stack.push(9)
         self.stack.pop()
         self.assertTrue(self.stack.isEmpty())
-
-    
