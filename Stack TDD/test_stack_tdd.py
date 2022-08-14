@@ -21,13 +21,19 @@ class StackTestCases(TestCase):
         self.stack.push(9)
         self.stack.pop()
         self.assertTrue(self.stack.isEmpty())
+        self.stack.push(3)
+        self.stack.push(9)
+        self.stack.pop()
+        self.assertEqual(self.stack.peek(), 3)
+        self.stack.pop()
+        self.assertTrue(self.stack.isEmpty())
 
     def test_peek(self):
         """ Test peek into the last item of stack """
         self.stack.push(8)
         self.stack.push(9)
         self.assertTrue(self.stack.peek(), 9)
-
+        
     def test_isEmpty(self):
         """ Test if the stack is empty """
         self.assertTrue(self.stack.isEmpty())
