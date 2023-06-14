@@ -4,4 +4,5 @@ Flask-SQLAlchemy
 nose
 pinocchio
 coverage
+factory-boy
 pylint
